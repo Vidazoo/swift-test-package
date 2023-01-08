@@ -1,0 +1,434 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "testSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "testSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "testSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "testSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WidgetEvents",
+        "printedName": "WidgetEvents",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Mute",
+            "printedName": "Mute",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(testSDK.WidgetEvents.Type) -> testSDK.WidgetEvents",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WidgetEvents",
+                    "printedName": "testSDK.WidgetEvents",
+                    "usr": "s:7testSDK12WidgetEventsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "testSDK.WidgetEvents.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WidgetEvents",
+                        "printedName": "testSDK.WidgetEvents",
+                        "usr": "s:7testSDK12WidgetEventsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7testSDK12WidgetEventsO4MuteyA2CmF",
+            "mangledName": "$s7testSDK12WidgetEventsO4MuteyA2CmF",
+            "moduleName": "testSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "testSDK.WidgetEvents?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WidgetEvents",
+                    "printedName": "testSDK.WidgetEvents",
+                    "usr": "s:7testSDK12WidgetEventsO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7testSDK12WidgetEventsO8rawValueACSgSS_tcfc",
+            "mangledName": "$s7testSDK12WidgetEventsO8rawValueACSgSS_tcfc",
+            "moduleName": "testSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7testSDK12WidgetEventsO8rawValueSSvp",
+            "mangledName": "$s7testSDK12WidgetEventsO8rawValueSSvp",
+            "moduleName": "testSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7testSDK12WidgetEventsO8rawValueSSvg",
+                "mangledName": "$s7testSDK12WidgetEventsO8rawValueSSvg",
+                "moduleName": "testSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7testSDK12WidgetEventsO",
+        "mangledName": "$s7testSDK12WidgetEventsO",
+        "moduleName": "testSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "vidazooWidget",
+        "printedName": "vidazooWidget",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "pause",
+            "printedName": "pause()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7testSDK13vidazooWidgetV5pauseyyF",
+            "mangledName": "$s7testSDK13vidazooWidgetV5pauseyyF",
+            "moduleName": "testSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "play",
+            "printedName": "play()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7testSDK13vidazooWidgetV4playyyF",
+            "mangledName": "$s7testSDK13vidazooWidgetV4playyyF",
+            "moduleName": "testSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "on",
+            "printedName": "on(_:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WidgetEvents",
+                "printedName": "testSDK.WidgetEvents",
+                "usr": "s:7testSDK12WidgetEventsO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7testSDK13vidazooWidgetV2on_8callbackyAA0D6EventsO_yyctF",
+            "mangledName": "$s7testSDK13vidazooWidgetV2on_8callbackyAA0D6EventsO_yyctF",
+            "moduleName": "testSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7testSDK13vidazooWidgetV4bodyQrvp",
+            "mangledName": "$s7testSDK13vidazooWidgetV4bodyQrvp",
+            "moduleName": "testSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7testSDK13vidazooWidgetV4bodyQrvg",
+                "mangledName": "$s7testSDK13vidazooWidgetV4bodyQrvg",
+                "moduleName": "testSDK",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7testSDK13vidazooWidgetV",
+        "mangledName": "$s7testSDK13vidazooWidgetV",
+        "moduleName": "testSDK",
+        "declAttributes": [
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/samrani\/Desktop\/code\/framework\/testSDK\/testSDK\/SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 268,
+      "length": 6,
+      "value": "\"mute\""
+    },
+    {
+      "filePath": "\/Users\/samrani\/Desktop\/code\/framework\/testSDK\/testSDK\/SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 268,
+      "length": 6,
+      "value": "\"mute\""
+    },
+    {
+      "filePath": "\/Users\/samrani\/Desktop\/code\/framework\/testSDK\/testSDK\/SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 339,
+      "length": 17,
+      "value": "\"callbackHandler\""
+    },
+    {
+      "filePath": "\/Users\/samrani\/Desktop\/code\/framework\/testSDK\/testSDK\/SDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 492,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/samrani\/Desktop\/code\/framework\/testSDK\/testSDK\/SDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 525,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/samrani\/Desktop\/code\/framework\/testSDK\/testSDK\/SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 2928,
+      "length": 11,
+      "value": "\"testSDK.Coordinator\""
+    }
+  ]
+}
