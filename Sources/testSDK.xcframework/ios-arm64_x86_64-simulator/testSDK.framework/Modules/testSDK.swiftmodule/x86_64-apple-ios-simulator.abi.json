@@ -203,6 +203,79 @@
         "printedName": "vidazooWidget",
         "children": [
           {
+            "kind": "Var",
+            "name": "widgetId",
+            "printedName": "widgetId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7testSDK13vidazooWidgetV8widgetIdSSvp",
+            "mangledName": "$s7testSDK13vidazooWidgetV8widgetIdSSvp",
+            "moduleName": "testSDK",
+            "declAttributes": [
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7testSDK13vidazooWidgetV8widgetIdSSvg",
+                "mangledName": "$s7testSDK13vidazooWidgetV8widgetIdSSvg",
+                "moduleName": "testSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(widgetId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "vidazooWidget",
+                "printedName": "testSDK.vidazooWidget",
+                "usr": "s:7testSDK13vidazooWidgetV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7testSDK13vidazooWidgetV8widgetIdACSS_tcfc",
+            "mangledName": "$s7testSDK13vidazooWidgetV8widgetIdACSS_tcfc",
+            "moduleName": "testSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "pause",
             "printedName": "pause()",
@@ -426,7 +499,7 @@
     {
       "filePath": "\/Users\/samrani\/Desktop\/code\/framework\/testSDK\/testSDK\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 2928,
+      "offset": 2942,
       "length": 11,
       "value": "\"testSDK.Coordinator\""
     }

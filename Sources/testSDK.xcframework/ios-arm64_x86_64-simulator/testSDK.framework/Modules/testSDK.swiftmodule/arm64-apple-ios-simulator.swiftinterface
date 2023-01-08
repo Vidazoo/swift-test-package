@@ -19,6 +19,8 @@ public enum WidgetEvents : Swift.String {
   }
 }
 @_Concurrency.MainActor(unsafe) public struct vidazooWidget : SwiftUI.View {
+  @_Concurrency.MainActor(unsafe) public let widgetId: Swift.String
+  @_Concurrency.MainActor(unsafe) public init(widgetId: Swift.String)
   @_Concurrency.MainActor(unsafe) public func pause()
   @_Concurrency.MainActor(unsafe) public func play()
   @_Concurrency.MainActor(unsafe) public func on(_ event: testSDK.WidgetEvents, callback: @escaping () -> Swift.Void)
