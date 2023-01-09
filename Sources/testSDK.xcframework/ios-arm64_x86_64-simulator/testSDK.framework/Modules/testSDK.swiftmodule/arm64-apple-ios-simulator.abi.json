@@ -199,8 +199,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "vidazooWidget",
-        "printedName": "vidazooWidget",
+        "name": "VidazooWidget",
+        "printedName": "VidazooWidget",
         "children": [
           {
             "kind": "Var",
@@ -215,8 +215,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:7testSDK13vidazooWidgetV8widgetIdSSvp",
-            "mangledName": "$s7testSDK13vidazooWidgetV8widgetIdSSvp",
+            "usr": "s:7testSDK13VidazooWidgetV8widgetIdSSvp",
+            "mangledName": "$s7testSDK13VidazooWidgetV8widgetIdSSvp",
             "moduleName": "testSDK",
             "declAttributes": [
               "Custom",
@@ -239,8 +239,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:7testSDK13vidazooWidgetV8widgetIdSSvg",
-                "mangledName": "$s7testSDK13vidazooWidgetV8widgetIdSSvg",
+                "usr": "s:7testSDK13VidazooWidgetV8widgetIdSSvg",
+                "mangledName": "$s7testSDK13VidazooWidgetV8widgetIdSSvg",
                 "moduleName": "testSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -254,9 +254,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "vidazooWidget",
-                "printedName": "testSDK.vidazooWidget",
-                "usr": "s:7testSDK13vidazooWidgetV"
+                "name": "VidazooWidget",
+                "printedName": "testSDK.VidazooWidget",
+                "usr": "s:7testSDK13VidazooWidgetV"
               },
               {
                 "kind": "TypeNominal",
@@ -266,8 +266,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7testSDK13vidazooWidgetV8widgetIdACSS_tcfc",
-            "mangledName": "$s7testSDK13vidazooWidgetV8widgetIdACSS_tcfc",
+            "usr": "s:7testSDK13VidazooWidgetV8widgetIdACSS_tcfc",
+            "mangledName": "$s7testSDK13VidazooWidgetV8widgetIdACSS_tcfc",
             "moduleName": "testSDK",
             "declAttributes": [
               "Custom",
@@ -287,8 +287,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7testSDK13vidazooWidgetV5pauseyyF",
-            "mangledName": "$s7testSDK13vidazooWidgetV5pauseyyF",
+            "usr": "s:7testSDK13VidazooWidgetV5pauseyyF",
+            "mangledName": "$s7testSDK13VidazooWidgetV5pauseyyF",
             "moduleName": "testSDK",
             "declAttributes": [
               "Custom",
@@ -308,8 +308,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7testSDK13vidazooWidgetV4playyyF",
-            "mangledName": "$s7testSDK13vidazooWidgetV4playyyF",
+            "usr": "s:7testSDK13VidazooWidgetV4playyyF",
+            "mangledName": "$s7testSDK13VidazooWidgetV4playyyF",
             "moduleName": "testSDK",
             "declAttributes": [
               "Custom",
@@ -352,8 +352,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7testSDK13vidazooWidgetV2on_8callbackyAA0D6EventsO_yyctF",
-            "mangledName": "$s7testSDK13vidazooWidgetV2on_8callbackyAA0D6EventsO_yyctF",
+            "usr": "s:7testSDK13VidazooWidgetV2on_8callbackyAA0D6EventsO_yyctF",
+            "mangledName": "$s7testSDK13VidazooWidgetV2on_8callbackyAA0D6EventsO_yyctF",
             "moduleName": "testSDK",
             "declAttributes": [
               "Custom",
@@ -381,8 +381,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:7testSDK13vidazooWidgetV4bodyQrvp",
-            "mangledName": "$s7testSDK13vidazooWidgetV4bodyQrvp",
+            "usr": "s:7testSDK13VidazooWidgetV4bodyQrvp",
+            "mangledName": "$s7testSDK13VidazooWidgetV4bodyQrvp",
             "moduleName": "testSDK",
             "declAttributes": [
               "Custom",
@@ -409,8 +409,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:7testSDK13vidazooWidgetV4bodyQrvg",
-                "mangledName": "$s7testSDK13vidazooWidgetV4bodyQrvg",
+                "usr": "s:7testSDK13VidazooWidgetV4bodyQrvg",
+                "mangledName": "$s7testSDK13VidazooWidgetV4bodyQrvg",
                 "moduleName": "testSDK",
                 "accessorKind": "get"
               }
@@ -418,8 +418,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:7testSDK13vidazooWidgetV",
-        "mangledName": "$s7testSDK13vidazooWidgetV",
+        "usr": "s:7testSDK13VidazooWidgetV",
+        "mangledName": "$s7testSDK13VidazooWidgetV",
         "moduleName": "testSDK",
         "declAttributes": [
           "Custom",

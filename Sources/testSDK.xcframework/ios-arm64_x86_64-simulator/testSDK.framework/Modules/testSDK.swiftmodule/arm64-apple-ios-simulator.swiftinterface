@@ -18,7 +18,7 @@ public enum WidgetEvents : Swift.String {
     get
   }
 }
-@_Concurrency.MainActor(unsafe) public struct vidazooWidget : SwiftUI.View {
+@_Concurrency.MainActor(unsafe) public struct VidazooWidget : SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public let widgetId: Swift.String
   @_Concurrency.MainActor(unsafe) public init(widgetId: Swift.String)
   @_Concurrency.MainActor(unsafe) public func pause()
@@ -27,7 +27,7 @@ public enum WidgetEvents : Swift.String {
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
-  public typealias Body = @_opaqueReturnTypeOf("$s7testSDK13vidazooWidgetV4bodyQrvp", 0) __
+  public typealias Body = @_opaqueReturnTypeOf("$s7testSDK13VidazooWidgetV4bodyQrvp", 0) __
 }
 extension testSDK.WidgetEvents : Swift.Equatable {}
 extension testSDK.WidgetEvents : Swift.Hashable {}
